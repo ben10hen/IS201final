@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+li{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+}
+.paragraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+.center{
+    align-content: center;
+}
+.introduction{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: black;
+    margin-left: 25px;
+}
+.spoiler{
+    /* padding: 60px; */
+    margin-left: 10px;
+    text-align: center;
+    /* background: #1abc9c; */
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: maroon;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:visited{
+    color: blueviolet;
+}
+.ListHeading{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify{text-align: justify;}
+.italics{font-style: italic;}
+.normal{font-style: normal;}
+
+.homebg{
+    background-image: url('../images/repeating-background.jpg');
+    background-repeat: repeat-x repeat-y;
+}
+
+.textheader{
+    margin-left: 15px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+.emphasis{color:brown}
+
+.leftmargin{
+    margin-left: 25px;
+}

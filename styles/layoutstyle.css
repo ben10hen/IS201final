@@ -1,0 +1,66 @@
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common{
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header{
+    top: 0px;
+    left: 0px;
+    right: 1px;
+    height: 50px;
+    z-index: 2;
+    border-bottom: none;
+    background-color: white;
+    text-align: justify;
+
+}
+
+.leftmenu {
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    bottom: 42px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #555555;
+    border-bottom: none;
+    border-top: none;
+    position: fixed;
+    background-color: lightgrey;
+}
+
+.mainbody{
+    top: 114px;
+    left: 204px;
+    right: 64px;
+    bottom: 0px;
+    width: 80%;
+    height: 165%; 
+    background-image: url(../images/parchment-background.jpg);
+    background-repeat: repeat-y;
+    
+    
+}
+
+.footer{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 25px;
+    font-size: 8px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    background-color: lightgray;
+    border-top: #555555 1px;
+}
+
+.subheader{
+    float: right;
+}

@@ -1,0 +1,9 @@
+.bold {font-weight: bold;}
+.resumeListHeading{
+    font-weight: bold;
+    font-style: normal;
+}
+.resumeListBody{
+    font-weight: normal;
+    font-style: normal;
+}
